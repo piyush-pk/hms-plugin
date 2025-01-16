@@ -1,0 +1,20 @@
+{
+    "name": "hms/hospital-management-system",
+    "description": "Managing the whole hospital's assets",
+    "authors": [
+        {
+            "name": "Piyush Khandelwal",
+            "email": "mrpiyushpk@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "HMS\\Admin\\": "admin/",
+            "HMS\\Includes\\": "includes/",
+            "HMS\\Includes\\Init\\": "includes/init/",
+            "HMS\\Includes\\Models\\": "includes/models/",
+            "HMS\\Templates\\": "templates/"
+        }
+    }
+}
